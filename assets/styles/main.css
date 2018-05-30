@@ -10279,3 +10279,7 @@ form .input-error-2:focus {
 	font-weight: 100 !important;
 	letter-spacing: 25px !important;
 }
+
+.wrapper-404 {
+	background-color: #333333;
+}
