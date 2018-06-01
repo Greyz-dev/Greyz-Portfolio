@@ -1,0 +1,30 @@
+/* Custom CSS */
+.center {
+	text-align: center;
+}
+
+.title-pad {
+	padding-top: 120px;
+}
+
+/* Colors */
+.white {
+	color: #ffffff !important;
+}
+
+.light-gray {
+	color: #d9d9d9 !important;
+}
+
+.greyson {
+	font-weight: 100 !important;
+	letter-spacing: 25px !important;
+}
+
+.wrapper-404 {
+	background-color: #333333;
+}
+
+.pt-plax-lg-light {
+	background-position: center !important;
+}
