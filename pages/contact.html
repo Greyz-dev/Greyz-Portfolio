@@ -96,7 +96,7 @@
                     <p>Have a project you would like me to consider or just want to say hello? I would love to hear from you. Use the form below to describe your project.</p>
                   </div>
 
-                  <form name="contact" action="../assets/contact-form/contact-form.php" method="POST" netlify-honeypot="bot-field" class="form-minimal form-ajax" netlify>
+                  <form name="contact" action="../assets/contact-form/contact-form.php" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" class="form-minimal form-ajax" netlify>
 
                     <!-- Honeypot Field -->
                     <div class="form-group hidden">
@@ -131,7 +131,7 @@
                       <textarea class="form-control" name="message" id="message-contact-1" rows="5"></textarea>
                       <label for="message-contact-1">Message *</label>
                     </div>
-
+                    <div data-netlify-recaptcha="true"></div>
                     <input type="submit" class="btn-text" value="Send Message">
 
                     <!-- Ajax Message -->
